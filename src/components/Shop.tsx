@@ -1,7 +1,7 @@
 "use client";
 
-// import { books } from '@/lib/books'
-// import { useCart } from "@/hooks/useCart";
+// todo: import { books } from '@/lib/books'
+// todo: import { useCart } from "@/hooks/useCart";
 
 export const Shop = () => {
   return (

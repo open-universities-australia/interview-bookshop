@@ -19,15 +19,15 @@ export function useCart() {
   const [state, dispatch] = useReducer(cartReducer, { cartItems: [] });
 
   return {
-    // addToCart: (book: Book) => { // What goes here? }
+    // addToCart: (book: Book) => { /* todo: implement this */ }
     cartItems: state.cartItems,
   };
 }
 
-const cartReducer = (state: Cart, action: CartAction) => {
+export const cartReducer = (state: Cart, action: CartAction) => {
   switch (action.type) {
     case "addToCart": {
-      // what do we do here?
+      // todo: implement this
     }
     default: {
       return state;
